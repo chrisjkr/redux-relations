@@ -1,0 +1,27 @@
+{
+  "name": "redux-relations",
+  "version": "0.1.0",
+  "description": "Redux helpers for creating relational stores.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krszwsk/redux-relations.git"
+  },
+  "keywords": [
+    "redux",
+    "relations",
+    "react"
+  ],
+  "author": "Krzysztof Kraszewski <krzysztof@kraszewski.app>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krszwsk/redux-relations/issues"
+  },
+  "homepage": "https://github.com/krszwsk/redux-relations#readme",
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  }
+}

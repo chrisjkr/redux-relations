@@ -1,6 +1,6 @@
 export function mapRelationalStateToProps<IStore extends IAbstractStore>(storeNames: [keyof IStore]) {
   return (state: IStore) => {
-    let relationalState: { [key: string]: any } = {}
+    let relationalState: { [key: string]: { [key: string]: any }[] } = {}
     storeNames.forEach((storeName) => {
       const store: IRelationalStore<{ [key: string]: any }> = state[storeName]
       const items = store.items

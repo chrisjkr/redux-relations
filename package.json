@@ -1,14 +1,16 @@
 {
   "name": "redux-relations",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "Redux helpers for creating relational stores.",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/krszwsk/redux-relations.git"
+    "url": "https://github.com/krszwsk/redux-relations.git"
   },
   "keywords": [
     "redux",
@@ -22,6 +24,8 @@
   },
   "homepage": "https://github.com/krszwsk/redux-relations#readme",
   "devDependencies": {
-    "typescript": "^3.0.1"
+    "semantic-release": "^15.9.8",
+    "typescript": "^3.0.1",
+    "travis-deploy-once": "^5.0.2"
   }
 }

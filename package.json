@@ -2,7 +2,8 @@
   "name": "redux-relations",
   "version": "0.0.0-development",
   "description": "Redux helpers for creating relational stores.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "semantic-release": "semantic-release"

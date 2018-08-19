@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -25,7 +24,6 @@
   "homepage": "https://github.com/krszwsk/redux-relations#readme",
   "devDependencies": {
     "semantic-release": "^15.9.9",
-    "typescript": "^3.0.1",
-    "travis-deploy-once": "^5.0.2"
+    "typescript": "^3.0.1"
   }
 }

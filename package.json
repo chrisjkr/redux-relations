@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/krszwsk/redux-relations#readme",
   "devDependencies": {
-    "semantic-release": "^15.9.8",
+    "semantic-release": "^15.9.9",
     "typescript": "^3.0.1",
     "travis-deploy-once": "^5.0.2"
   }

@@ -1,8 +1,4 @@
-export declare function mapRelationalStateToProps<IStore extends IAbstractStore>(storeNames: [keyof IStore]): (state: IStore) => {
-    [key: string]: {
-        [key: string]: any;
-    }[];
-};
+export declare function mapRelationalStateToProps<IStore extends IAbstractStore>(storeNames: [keyof IStore]): (state: IStore) => any;
 export interface IAbstractStore {
     [key: string]: IRelationalStore<object>;
 }

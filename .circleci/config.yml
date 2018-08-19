@@ -12,18 +12,12 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run:
-        name: install
-        command: npm install
+      - run: npm install
 
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run:
-          name: build
-          command: npm run build
-      - run:
-          name: release
-          command: npm run semantic-release || true
+      - run: npm run build
+      - run: npm run semantic-release || true
